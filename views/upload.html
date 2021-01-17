@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <style>
       input {
         margin: 4px;
@@ -12,11 +12,8 @@
   <body>
     <h1>Upload a photo</h1>
     <div style="text-align:right;width:400px;border:1px dashed #6495de;padding:16px;">
-      <form>
-        <label for="filename">File Name</label>
-        <input id="filename"><br>
-
-        <label for="photo">Photo ID</label>
+      <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="photo">Photo</label>
         <input id="photo" type="file" name="photo"/><br />
         <input type="submit" value="Upload" />
       </form>
