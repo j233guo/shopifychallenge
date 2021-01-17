@@ -1,0 +1,4 @@
+run server.js with node
+in browser go to localhost:8080 to open the web page
+on the web page you can upload a picture
+after uploaded a picture you will be shown the picture you just uploaded, and the picture will be stored inside a folder in the same directory
